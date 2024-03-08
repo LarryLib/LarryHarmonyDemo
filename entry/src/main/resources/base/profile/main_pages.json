@@ -2,6 +2,12 @@
   "src": [
     "pages/Index",
     "pages/PageLifeCycle/FirstPage",
-    "pages/PageLifeCycle/SecondPage"
+    "pages/PageLifeCycle/SecondPage",
+    "pages/StateManagement/ApplicationState/LocalStorage/LocalStoragePage",
+    "pages/StateManagement/ApplicationState/LocalStorage/LocalStoragePage2",
+    "pages/StateManagement/ApplicationState/AppStorage/AppStoragePage",
+    "pages/StateManagement/ApplicationState/EnvironmentPage",
+    "pages/StateManagement/ApplicationState/PersistentStoragePage",
+    "pages/TODO/EmitterPage"
   ]
 }
