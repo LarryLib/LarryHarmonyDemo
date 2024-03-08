@@ -50,7 +50,7 @@ struct UserBookList {
       List() {
         ForEach(this.user.books, (book: Book) => {
           ListItem() {
-            BookItem({book: book})
+            // BookItem({book: book})
           }
         })
       }
@@ -147,7 +147,7 @@ struct Container0 {
           this.a.b.name += 'b'
         })
 
-      Container1({b: this.a.b})
+      // Container1({b: this.a.b})
     }
     .width('100%')
     .height('50%')
