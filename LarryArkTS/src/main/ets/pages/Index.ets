@@ -1,17 +1,29 @@
+import { arkTS } from './ArkTS';
+import { arkTSBaseGrammar } from './ArkTSBaseGrammar';
+
 @Entry
 @Component
 struct Index {
   @State message: string = 'Hello World';
 
   build() {
-    Row() {
-      Column() {
-        Text(this.message)
-          .fontSize(50)
-          .fontWeight(FontWeight.Bold)
-      }
-      .width('100%')
+    Column() {
+      Text('arkTSBaseGrammar')
+        .fontSize(30)
+        .fontWeight(FontWeight.Bold)
+        .onClick(() => {
+          arkTSBaseGrammar()
+        })
+
+      Text('arkTS')
+        .fontSize(30)
+        .fontWeight(FontWeight.Bold)
+        .onClick(() => {
+          arkTS()
+        })
     }
+    .justifyContent(FlexAlign.Center)
+    .width('100%')
     .height('100%')
   }
 }
