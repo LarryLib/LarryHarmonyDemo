@@ -30,6 +30,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "LarryArkTS",
+      "srcPath": "./LarryArkTS",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
