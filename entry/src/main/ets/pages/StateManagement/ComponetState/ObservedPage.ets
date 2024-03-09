@@ -50,7 +50,7 @@ struct UserBookList {
       List() {
         ForEach(this.user.books, (book: Book) => {
           ListItem() {
-            // BookItem({book: book})
+            BookItem({book: book!})
           }
         })
       }
