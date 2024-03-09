@@ -1,3 +1,6 @@
+import router from '@ohos.router'
+import { LeftBackItem } from '../common/LeftBackItem'
+
 @Entry
 @Component
 struct Index {
@@ -6,9 +9,14 @@ struct Index {
   build() {
     Row() {
       Column() {
-        Text(this.message)
+        LeftBackItem({title: this.message})
+        Text('push')
           .fontSize(50)
           .fontWeight(FontWeight.Bold)
+          .onClick(() => {
+            //  真机或模拟器测试的
+            router.pushUrl({url: 'pages/StateManagement/ApplicationState/PersistentStoragePage'})
+          })
       }
       .width('100%')
     }
