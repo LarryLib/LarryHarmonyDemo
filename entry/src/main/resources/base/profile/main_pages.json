@@ -8,6 +8,10 @@
     "pages/StateManagement/ApplicationState/AppStorage/AppStoragePage",
     "pages/StateManagement/ApplicationState/EnvironmentPage",
     "pages/StateManagement/ApplicationState/PersistentStoragePage",
-    "pages/TODO/EmitterPage"
+    "pages/TODO/EmitterPage",
+    "pages/RenderControl/IfElseRenderPage",
+    "pages/RenderControl/ForEachRenderPage",
+    "pages/RenderControl/LazyForEachRenderPage/LazyForEachRenderPage",
+    "pages/RenderControl/LazyForEachRenderPage/LazyForEachRenderPage2"
   ]
 }
